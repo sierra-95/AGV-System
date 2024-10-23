@@ -1,0 +1,590 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72bd71b43430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72bd71b42da0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72bd71b42da0>>, mixin_verb=('build',))
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenovo2204/Documents/AGV/TurtleBot'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_description', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_example', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_node', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3', 'merge_install': False, 'path': '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3', 'symlink_install': False, 'test_result_base': None}
+[0.414s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_description' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_description'
+[0.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_node' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_node'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_cartographer' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_cartographer'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_example' with build type 'ament_python'
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ament_prefix_path')
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.sh'
+[0.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer
+[1.098s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_example'
+[1.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer -- -j4 -l4
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer -- -j4 -l4
+[1.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example/build install --record /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description
+[2.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description -- -j4 -l4
+[2.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[2.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_cartographer
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer' for CMake module files
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer' for CMake config files
+[2.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/bin'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/lib/python3.10/site-packages'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/bin'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[2.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[2.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer' for CMake module files
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer' for CMake config files
+[2.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/bin'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/lib/python3.10/site-packages'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/bin'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[2.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[2.106s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_navigation2' with build type 'ament_cmake'
+[2.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_navigation2'
+[2.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description -- -j4 -l4
+[2.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2
+[2.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description
+[2.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description' for CMake module files
+[2.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_description
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description' for CMake config files
+[2.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/bin'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/lib/python3.10/site-packages'
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/bin'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[2.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[2.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description' for CMake module files
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description' for CMake config files
+[2.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[2.389s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/bin'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/lib/python3.10/site-packages'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/bin'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[2.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[2.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[2.408s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop' with build type 'ament_python'
+[2.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[2.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[2.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[2.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.128s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop'
+[3.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.155s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example' for CMake module files
+[3.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example/build install --record /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example' for CMake config files
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/bin'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/pkgconfig/turtlebot3_example.pc'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages'
+[3.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath')
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.ps1'
+[3.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.dsv'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.sh'
+[3.172s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/bin'
+[3.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_example)
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/package.ps1'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/package.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/package.sh'
+[3.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/package.bash'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/turtlebot3_example/package.zsh'
+[3.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/share/colcon-core/packages/turtlebot3_example)
+[3.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2
+[3.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2 -- -j4 -l4
+[3.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node -- -j4 -l4
+[4.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build install --record /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[4.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2 -- -j4 -l4
+[4.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2
+[4.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[4.336s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2' for CMake module files
+[4.355s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2' for CMake config files
+[4.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_navigation2
+[4.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[4.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[4.371s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/bin'
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/lib/python3.10/site-packages'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/bin'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[4.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[4.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[4.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[4.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[4.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[4.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2' for CMake module files
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2' for CMake config files
+[4.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[4.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[4.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/bin'
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/lib/python3.10/site-packages'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/bin'
+[4.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[4.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[4.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[4.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[4.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[4.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop' for CMake module files
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop' for CMake config files
+[5.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build install --record /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib'
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/bin'
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc'
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages'
+[5.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[5.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[5.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[5.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.sh'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/bin'
+[5.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[5.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/package.ps1'
+[5.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/package.dsv'
+[5.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/package.sh'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/package.bash'
+[5.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop/package.zsh'
+[5.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/colcon-core/packages/turtlebot3_teleop)
+[70.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node -- -j4 -l4
+[70.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node
+[70.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[70.725s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node' for CMake module files
+[70.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_node
+[70.726s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node' for CMake config files
+[70.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[70.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[70.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[70.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[70.728s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/lib'
+[70.728s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/bin'
+[70.729s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[70.729s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/lib/python3.10/site-packages'
+[70.729s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/bin'
+[70.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[70.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[70.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[70.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[70.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[70.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[70.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[70.772s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node' for CMake module files
+[70.772s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node' for CMake config files
+[70.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[70.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[70.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[70.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[70.774s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/lib'
+[70.775s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/bin'
+[70.775s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[70.775s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/lib/python3.10/site-packages'
+[70.775s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/bin'
+[70.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[70.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[70.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[70.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[70.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[70.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[70.778s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_bringup' with build type 'ament_cmake'
+[70.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_bringup'
+[70.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[70.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[70.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup
+[71.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup
+[71.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup -- -j4 -l4
+[71.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup -- -j4 -l4
+[71.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup
+[71.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[71.564s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup' for CMake module files
+[71.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/opt/ros/humble /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_bringup
+[71.565s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup' for CMake config files
+[71.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[71.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[71.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[71.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[71.568s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/bin'
+[71.568s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[71.569s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/lib/python3.10/site-packages'
+[71.569s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/bin'
+[71.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[71.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[71.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[71.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[71.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[71.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[71.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[71.609s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup' for CMake module files
+[71.610s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup' for CMake config files
+[71.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[71.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[71.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[71.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[71.613s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/bin'
+[71.613s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[71.613s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/lib/python3.10/site-packages'
+[71.614s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/bin'
+[71.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[71.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[71.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[71.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[71.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[71.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[71.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3' with build type 'ament_cmake'
+[71.618s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3'
+[71.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[71.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[71.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:/opt/ros/humble PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3 -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3
+[72.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:/opt/ros/humble PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3 -DCMAKE_INSTALL_PREFIX=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3
+[72.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:/opt/ros/humble PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3 -- -j4 -l4
+[72.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:/opt/ros/humble PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3 -- -j4 -l4
+[72.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:/opt/ros/humble PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3
+[72.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[72.467s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3' for CMake module files
+[72.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_bringup:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_node:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_navigation2:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_description:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_cartographer:/opt/ros/humble PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3
+[72.468s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3' for CMake config files
+[72.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[72.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[72.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[72.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[72.471s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/bin'
+[72.471s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[72.472s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/lib/python3.10/site-packages'
+[72.472s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/bin'
+[72.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.ps1'
+[72.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.dsv'
+[72.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.sh'
+[72.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.bash'
+[72.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.zsh'
+[72.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[72.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[72.509s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3' for CMake module files
+[72.510s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3' for CMake config files
+[72.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[72.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[72.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[72.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[72.514s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/bin'
+[72.514s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[72.515s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/lib/python3.10/site-packages'
+[72.516s] Level 1:colcon.colcon_core.environment:checking '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/bin'
+[72.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.ps1'
+[72.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.dsv'
+[72.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.sh'
+[72.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.bash'
+[72.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/turtlebot3/package.zsh'
+[72.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[72.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[72.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[72.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[72.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[72.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[72.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[72.535s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[72.553s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[72.554s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenovo2204/Documents/AGV/TurtleBot/install/local_setup.ps1'
+[72.555s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenovo2204/Documents/AGV/TurtleBot/install/_local_setup_util_ps1.py'
+[72.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenovo2204/Documents/AGV/TurtleBot/install/setup.ps1'
+[72.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenovo2204/Documents/AGV/TurtleBot/install/local_setup.sh'
+[72.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenovo2204/Documents/AGV/TurtleBot/install/_local_setup_util_sh.py'
+[72.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenovo2204/Documents/AGV/TurtleBot/install/setup.sh'
+[72.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenovo2204/Documents/AGV/TurtleBot/install/local_setup.bash'
+[72.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenovo2204/Documents/AGV/TurtleBot/install/setup.bash'
+[72.568s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenovo2204/Documents/AGV/TurtleBot/install/local_setup.zsh'
+[72.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenovo2204/Documents/AGV/TurtleBot/install/setup.zsh'

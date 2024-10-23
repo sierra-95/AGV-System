@@ -1,0 +1,42 @@
+[1.645s] Invoking command in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build install --record /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[2.594s] running egg_info
+[2.600s] creating ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[2.600s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[2.600s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[2.600s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[2.600s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[2.600s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[2.602s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.608s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.613s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.613s] running build
+[2.614s] running build_py
+[2.614s] creating /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build
+[2.614s] creating /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib
+[2.614s] creating /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[2.614s] copying turtlebot3_teleop/__init__.py -> /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[2.617s] creating /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.617s] copying turtlebot3_teleop/script/__init__.py -> /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.617s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.618s] running install
+[2.618s] running install_lib
+[2.619s] creating /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[2.620s] copying /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[2.620s] creating /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[2.620s] copying /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[2.622s] copying /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[2.622s] byte-compiling /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[2.623s] byte-compiling /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[2.625s] byte-compiling /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[2.630s] running install_data
+[2.631s] creating /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/ament_index
+[2.631s] creating /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/ament_index/resource_index
+[2.631s] creating /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.631s] copying resource/turtlebot3_teleop -> /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.631s] copying package.xml -> /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/share/turtlebot3_teleop
+[2.632s] running install_egg_info
+[2.636s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info
+[2.637s] running install_scripts
+[2.678s] Installing teleop_keyboard script to /home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.678s] writing list of installed files to '/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/install.log'
+[2.732s] Invoked command in '/home/lenovo2204/Documents/AGV/TurtleBot/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lenovo2204/Documents/AGV/TurtleBot/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/build install --record /home/lenovo2204/Documents/AGV/TurtleBot/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
